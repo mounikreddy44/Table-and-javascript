@@ -1,0 +1,66 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.zui-table {
+    border: solid 5px #1E90FF;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 300px;
+    font: normal 13px Arial, sans-serif;
+}
+.zui-table thead th {
+    border-top: solid 5px #1E90FF;
+    color: black;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.zui-table thead th.account-header {
+    text-align: left ;
+    padding-bottom: 0px;
+    background-color: #E8E8E8;
+}
+.zui-table thead th .todays-change{
+   opacity:0.5;
+}
+.zui-table thead th.cash-header {
+    text-align: right ;
+    background-color: #D8D8D8;
+}
+.zui-table thead th .carrot-style{
+  color: #1E90FF;
+}
+.zui-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    height: 30px;
+    padding: 10px;
+    width:150px;  
+    text-shadow: 1px 1px 1px #fff;
+}
+.zui-table-horizontal tbody td {
+    border-left: none;
+    border-right: none;
+}
+.zui-table tbody td.load-more{
+    color: #1E90FF;
+    text-align: center;
+}
+.zui-table tbody td.bold-text {
+  font-weight: bold;
+  color: #1E90FF;
+}
+
+.zui-table tbody td .sub-text {
+  font-size:11px;
+}
+.zui-table tbody td .green-text {
+  color: green;
+}
+.zui-table tbody td .red-text {
+  color: red;
+}
+.zui-table tbody td.right-text {
+  text-align:right;
+}
+
